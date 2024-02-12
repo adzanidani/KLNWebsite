@@ -1,0 +1,38 @@
+:root {
+  --primary: #001d3d;
+  --secondary: #f5cc00;
+  --third: #ffffff;
+  --forth: #000000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: : 'Montserrat',sans-serif;
+    background-color:var(--third);
+    color: var(--forth);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    background-color: var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+
+}
