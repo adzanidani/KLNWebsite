@@ -712,6 +712,14 @@ pre code {
   padding-left: 15px;
 }
 
+.col-fit {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -9382,6 +9390,13 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+}
+.text-padding-left {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
 }
 
 .text-primary {
